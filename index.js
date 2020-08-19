@@ -20,14 +20,14 @@ setInterval(function(){
         if(online){
             if(!alreadySent){
                 const user = client.users.cache.get(discordReciepient);
-                user.send(user.toString() + "You are now on!eeee");
+                user.send(user.toString() + "David is online!");
                 alreadySent= true
             }
 
         }else{
             if(alreadySent){
                 const user = client.users.cache.get(discordReciepient);
-                user.send(user.toString() + "You are now offline!eee");
+                user.send(user.toString() + "David is offline!");
                 alreadySent= false
             }
         }
