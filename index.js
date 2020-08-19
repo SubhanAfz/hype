@@ -15,7 +15,7 @@ client.on("ready",()=>{
 
 
 setInterval(function(){
-    clientHyp.getStatus("uuid", "b36bf49f-8ba4-4e77-9e07-1971a534f9af").then((sess)=>{
+    clientHyp.getStatus("uuid", "d47ad269-4182-40fd-8486-cae7479b0c6e").then((sess)=>{
         var online = sess.session.online
         if(online){
             if(!alreadySent){
